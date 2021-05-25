@@ -1,8 +1,8 @@
 ---
-layout:
+layout: project
 title:
 image:
-category:
+categories:
 description:
 link: nikeproject.html
 ---

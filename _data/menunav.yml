@@ -1,14 +1,15 @@
 docs_list_title: navegacao global
 docs:
-
-- title: Index
-  url: index.html
   
 - title: Work
-  url: work.html
+  url: index.html
 
-- title: About
-  url: about.html
+- title: Blog
+  url: blog.html
+
+- title: Profile
+  url: profile.html
 
 - title: Contact
   url: contact.html
+
