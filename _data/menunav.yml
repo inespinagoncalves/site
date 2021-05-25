@@ -1,0 +1,17 @@
+docs_list_title: navegacao global
+docs:
+
+- title: Work
+  url: work.html
+
+- title: About
+  url: about.html
+
+- title: Blog
+  url: blog
+
+- title: Contact
+  url: contact
+
+- title: Instagram
+  url: instagram
