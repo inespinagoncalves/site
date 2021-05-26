@@ -1,5 +1,6 @@
 ---
 layout: contact
+title: contact
 ---
 
 Let's Talk!
