@@ -1,7 +1,9 @@
-<ul>
-    {% for item in site.data.socialmedia.docs %}
-      <li>
-        <a href="{{ item.url }}" target="_blank"> {{ item.title }} </a>
-      </li>
-    {% endfor %}
-  </ul>
+<nav>
+  <ul>
+      {% for item in site.data.socialmedia.docs %}
+        <li>
+          <a href="{{ item.url }}" target="_blank"> {{ item.title }} </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
