@@ -1,5 +1,7 @@
 ---
-layout: default
-title: blog
+layout: page
+title: Blog
 ---
-hello there, I'm Inês
+<h3>olá, sou a Inês<h3>
+
+{%- include posts-index.html -%}

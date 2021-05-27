@@ -1,17 +1,18 @@
 ---
-layout: default
+layout: page
 title: profile
 ---
+<section>
+    <h1>Hello, I'm Inês!</h1>   
+    <figure>
+        <img src="assets/img/imagemperfil.jpg" alt="black and white profile photo of a girl">
+    </figure>
+</section>
 
-<h1>Hello, I'm Inês!</h1>
-
-<figure>
-    <img src="assets/img/imagemperfil.jpg" alt="black and white profile photo of a girl">
-</figure>
-
-<h2>Profile</h2>
-
-<p>I'm a curious mind and an empathetic human being driven by the social impact of design. My main motivation in being able to create sustainable, ethical and inclusive solutions for our future through the development of digital experiences based on human-centered methodologies. Always focused on solving real problems and extremely concerned about climate change and equal rights. I have a holistic design approach, working on end-to-end project from research to ideation and prototyping.</p>
+<section>
+    <h2>Profile</h2>
+    <p>I'm a curious mind and an empathetic human being driven by the social impact of design. My main motivation in being able to create sustainable, ethical and inclusive solutions for our future through the development of digital experiences based on human-centered methodologies. Always focused on solving real problems and extremely concerned about climate change and equal rights. I have a holistic design approach, working on end-to-end project from research to ideation and prototyping.</p>
+</section>
 
 <section>
     <h2>Skills</h2>

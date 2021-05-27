@@ -1,10 +1,15 @@
 ---
-layout: home
+layout: page
 title: home
 ---
+<header>
+    <h1>Inês Pina Gonçalves is an independent designer with a muldidisciplinary approach focused on crafting digital products and unique distinctive brands.</h1>
+</header>
 
 <section>
-    <h2>Design Philosophy</h2>
+    <div>
+        <h2>Design Philosophy</h2>
+    </div>
     <ul>
         <li>
             <p>01_Keep things simple: "less is more";</p>
@@ -14,11 +19,12 @@ title: home
             <p>05_Be ethical as use your skill set to make a positive impact on society and on the environment </p>
         </li>
     </ul>
+    <div class="marquee">
+        <p>Designing is not a profession but an Attitude — László Moholy-Nagy</p>
+    </div>
 </section>
 
 <section>
-    <h2>Work</h2>
-
-    {%- include projects.html -%}
-
+    <h2>Latest Work</h2>
+    {%- include projects-index.html -%}
 </section>

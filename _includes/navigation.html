@@ -1,9 +1,9 @@
 <nav>
-  <div class="logo"><a href="index"><h1>Inês Pina Gonçalves</h1></a></div>
+  <div class="logo"><a href="index.html" title="link to homepage"><h1>Inês Pina Gonçalves</h1></a></div>
     <ul>
-      {% for item in site.data.menunav.docs %}
+      {% for item in site.data.globalnav.docs %}
        <li>
-          <a href="{{ item.url }}">{{ item.title }}</a>
+          <a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a>
         </li>
       {% endfor %}
     </ul>

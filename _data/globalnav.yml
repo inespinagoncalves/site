@@ -4,12 +4,14 @@ docs:
 - title: Home
   url: index.html
 
-- title: Blog
-  url: blog.html
+- title: Work
+  url: work.html
 
 - title: Profile
   url: profile.html
 
-- title: Contact
-  url: contact.html
+- title: Blog
+  url: blog.html
+
+
 

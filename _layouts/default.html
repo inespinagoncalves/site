@@ -4,17 +4,21 @@
   {%- include head.html -%}
 
   <body>
+    
+    <header>
 
-    {%- include navigation.html -%}
-   
+      {%- include navigation.html -%}
+
+      {%- include socialmedia.html -%}
+
+    </header>
+
     <main>
 
       {{ content }}
       
     </main>
     
-    {%- include socialmedia.html -%}
-
     {%- include footer.html -%}
 
   </body>
