@@ -24,7 +24,18 @@ title: home
     </div>
 </section>
 
-<section>
+{% for project in site.projects limit:2 %}
+
+<section class="latest-work">
     <h2>Latest Work</h2>
-    {%- include projects-index.html -%}
+    <figure>
+        <a href="{{ site.baseurl }}{{ project.url }}"><img src="{{ project.image | relative_url }}" alt=""></a>
+    </figure>
+    <div>
+        <a href="{{ site.baseurl }}{{ project.url }}"><h3>{{ project.title }}</h3></a>
+        <p>{{ project.description }}</p>
+        <p>{{ project.topic }}</p>
+    </div>
 </section>
+
+{% endfor %}
