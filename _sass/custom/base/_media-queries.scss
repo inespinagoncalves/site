@@ -1,0 +1,9 @@
+$tablet: "( min-width: 768px)";
+$desktop: "( min-width: 1024px )";
+
+// @include media-query
+@mixin media-query($device) {
+    @media screen and (min-width: 1024px) {
+      @content;
+    }
+  }

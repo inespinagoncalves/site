@@ -1,0 +1,18 @@
+
+.hero {
+    display: flex;
+    margin: auto;
+    padding: 100px;
+  
+    .hero-text {
+        @include main-font;
+        display: block;
+        font-size: 50px;
+        text-align: center;
+        margin: 30px;
+        }
+  }
+ 
+
+
+  
