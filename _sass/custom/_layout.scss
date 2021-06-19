@@ -1,0 +1,151 @@
+//Navigation 
+
+.global-navigation {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: $background-color;
+    justify-content: center;
+    position: fixed;
+    border-bottom-style: solid;
+    border-color: $primary-color;
+    @media #{$desktop} {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        a {
+            text-transform: uppercase;
+        }
+    }
+
+    ul {
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        a {
+            text-transform: uppercase;
+        }
+    }
+}
+
+//Homepage 
+
+.hero {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  
+    .hero-text {
+        @include main-font;
+        font-size: 24px;
+        text-align: center;
+        margin: 15px;
+        animation-name: changecolor;
+        animation-duration: 4s;
+        }
+
+        @keyframes changecolor {
+            0% {color: $primary-color;}
+            50% {color: $accent-color;}
+            100% {color: $secondary-color;}
+        }
+  }
+
+.design-philosophy {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+//Profile
+
+.introduction {
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+        h1 {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+        figure {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+}           
+
+.profile, .skills, .education {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+// Work
+
+.work {
+    padding-top: 100px;
+}
+
+//Project
+
+//Blog
+
+.post {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-image {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+//Post
+
+// Footer
+
+footer {
+    width: 100%;
+    height: auto;
+    border-top-style: solid;
+    border-color: $primary-color;
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+
+        a {
+            box-sizing: border-box;
+            margin: 20px;
+        }
+
+        p {
+            box-sizing: border-box;
+            margin: 20px;
+        }
+    }
+}
+
+.socialmedia-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,31 @@
+
+$base-font: 'Roboto', Arial, sans-serif;
+$base-size:   1rem;
+$base-weight: 400;
+$base-line-height: 1.5;
+
+@mixin main-font {
+    font-family: 'Roboto', Arial, sans-serif;
+    color:$primary-color;
+    margin: 0;
+ } 
+
+@mixin base-font {
+    font-family: $base-font;
+    color: $regular-text-color;
+    line-height: $base-line-height;
+    font-size: $base-size;
+    font-weight: $base-weight;
+ }
+
+h2 {
+    font-size: 1.5rem;
+    color: $primary-color;
+    line-height: 2rem;
+}
+
+p {
+    font-size: $base-size;
+    line-height: $base-line-height;
+    color: $regular-text-color;
+}

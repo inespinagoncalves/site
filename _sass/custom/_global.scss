@@ -1,0 +1,30 @@
+// This is the baseline CSS that should be present in all pages
+
+//Reset
+
+body {
+    @include base-font;
+    background-color:$background-color;
+}
+
+body, figure, ul, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
